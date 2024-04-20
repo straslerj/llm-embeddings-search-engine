@@ -1,7 +1,7 @@
 from langchain_community.document_loaders import PyPDFLoader
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-from langchain.vectorstores import FAISS
+from langchain_community.vectorstores import FAISS
 from langchain_community.llms.huggingface_pipeline import HuggingFacePipeline
 from langchain.chains.question_answering import load_qa_chain
 from langchain.prompts import PromptTemplate
@@ -26,7 +26,8 @@ CONTEXT:
 
 ANSWER: <|ASSISTANT|>
 """
-PROMPT = PromptTemplate(template=TEMPLATE,input_variables=["context","question"])
+PROMPT = PromptTemplate(template=TEMPLATE, input_variables=["context", "question"])
+
 
 class LoadDocs:
     """
@@ -44,7 +45,7 @@ class LoadDocs:
         """
         self.documents = PyPDFLoader(DOCUMENT_PATH).load()
         self.chunks = self.preprocess(self.documents)
-    
+
     def preprocess(self, documents):
         """
         Splits a document into smaller chunks to fit into a model's context window.
@@ -59,7 +60,7 @@ class LoadDocs:
             separators=["\n\n", "\n", " ", ""],
             chunk_size=750,
             chunk_overlap=200,  # Experiment with values, see https://langchain-text-splitter.streamlit.app
-            length_function=len, # I increased this to provide more context to LLM, but hit a limit for gpt2 so this is a sweet spot for the gpt2 model
+            length_function=len,  # I increased this to provide more context to LLM, but hit a limit for gpt2 so this is a sweet spot for the gpt2 model
         )
         chunks = splitter.create_documents(
             [document.page_content for document in documents],
@@ -106,18 +107,20 @@ class DocChat:
             task="text-generation",
             pipeline_kwargs={"max_new_tokens": 100},
         )
-        
+
         cwd = os.getcwd()
         file_path = os.path.join(cwd, FAISS_INDEX_PATH)
-        
+
         if os.path.exists(FAISS_INDEX_PATH):
-            self.vector_db = FAISS.load_local(FAISS_INDEX_PATH, self.embeddings, allow_dangerous_deserialization=True)
+            self.vector_db = FAISS.load_local(
+                FAISS_INDEX_PATH, self.embeddings, allow_dangerous_deserialization=True
+            )
         else:
             self.vector_db = FAISS.from_documents(self.chunks, self.embeddings)
             self.vector_db.save_local("FAISS_index")
-            
-        self.chain = load_qa_chain(llm=self.llm, chain_type='stuff', prompt=PROMPT)
-        
+
+        self.chain = load_qa_chain(llm=self.llm, chain_type="stuff", prompt=PROMPT)
+
     def qNa(self, query):
         """
         Executes a question and answer process based on the provided query.
@@ -133,8 +136,8 @@ class DocChat:
         return res["output_text"]
 
 
-docChat = DocChat()
-docChat.qNa("What numbers can a cornerback wear in the NFL?")
+# docChat = DocChat()
+# docChat.qNa("What numbers can a cornerback wear in the NFL?")
 
 # from transformers import GPT2Tokenizer -- me playing around with gpt2 tokenizer to find sweet spot. Could implement error
 # capturing with code like this but I think that is out of our scope for now with the time we have
