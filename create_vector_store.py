@@ -136,9 +136,6 @@ class DocChat:
         return res["output_text"]
 
 
-# docChat = DocChat()
-# docChat.qNa("What numbers can a cornerback wear in the NFL?")
-
 # from transformers import GPT2Tokenizer -- me playing around with gpt2 tokenizer to find sweet spot. Could implement error
 # capturing with code like this but I think that is out of our scope for now with the time we have
 
