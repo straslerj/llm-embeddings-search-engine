@@ -135,7 +135,7 @@ class DocChat:
         res = self.chain({"input_documents": sim_search_res, "question": query})
         output_text = res["output_text"]
         if just_answer:
-            return output_text.split("<|ASSISTANT|>")[1]
+            return output_text.split("ANSWER:")[1]
         else:
             return output_text
 
