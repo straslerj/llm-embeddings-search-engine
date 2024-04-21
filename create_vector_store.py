@@ -96,14 +96,14 @@ class DocChat:
         qNa: Executes a question and answer process based on the provided query.
     """
 
-    def __init__(self):
+    def __init__(self, model_id):
         """
         Initializes the DocChat object.
         """
         self.chunks = LoadDocs().chunks
         self.embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
         self.llm = HuggingFacePipeline.from_model_id(
-            model_id="gpt2",
+            model_id=model_id,
             task="text-generation",
             pipeline_kwargs={"max_new_tokens": 100},
         )
@@ -121,7 +121,7 @@ class DocChat:
 
         self.chain = load_qa_chain(llm=self.llm, chain_type="stuff", prompt=PROMPT)
 
-    def qNa(self, query):
+    def qNa(self, query, just_answer=False):
         """
         Executes a question and answer process based on the provided query.
 
@@ -133,7 +133,11 @@ class DocChat:
         """
         sim_search_res = self.vector_db.similarity_search(query)
         res = self.chain({"input_documents": sim_search_res, "question": query})
-        return res["output_text"]
+        output_text = res["output_text"]
+        if just_answer:
+            return output_text.split("<|ASSISTANT|>")[1]
+        else:
+            return output_text
 
 
 # from transformers import GPT2Tokenizer -- me playing around with gpt2 tokenizer to find sweet spot. Could implement error
