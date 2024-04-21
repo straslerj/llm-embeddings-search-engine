@@ -1,0 +1,45 @@
+Query:
+	How long does a quarter last?
+
+Response:
+	 <|ASSISTANT|>
+(1)A penalty for the remainder of a
+game shall be paid with a minimum of $10,000 for the remainder of the game. 
+Any extra timeouts in the game shall be paid with a minimum of $10,000 for the remainder of the game.
+* * * * * * * * * * * * * * * * * * * * * * * * * * * 
+NOTIONS OF ANALYSIS: There may be periods of
+--------------------
+Query:
+	How long is a game?
+
+Response:
+	 <|ASSISTANT|>
+You are an authority to set the clock in this context.
+13. 
+15
+
+A player shall be permitted to take part in the play clock using a team or coach at halftime, unless a team attendant or trainer signs the
+other player and begins the play clock with a team attendant or trainer. If the play clock is
+taken from the play clock, the play clock will have an extra 15 minutes. 
+14
+A player shall be required to take part in the
+--------------------
+Query:
+	What numbers can a linebacker wear?
+
+Response:
+	 <|ASSISTANT|>
+Please do not modify any of the rules or regulations, and for all purposes use your own discretion. 
+Rule -Section- Article 2, Article 3, Item 3. Any player or ball player in or after the third quarter of his or her fourth quarter throws a fumble at the position of the kicker, if the ball lands near  an illegal kick or a block attempt        
+--------------------
+Query:
+	What is considered unsportsmanlike? Provide examples.
+
+Response:
+	 <|ASSISTANT|>
+You can submit any form of report, e.g., on the following page:
+<|BEGIN|DATE|>
+THE QUESTIONS ARE LEGAL.
+ALL MISSION MISSION MISSION MISSION MISSION MISSION MISSION MISSION MISSION MISSION MISSION MISSION MISSION MEMBERS
+If you would like to submit report, write to the referee, provide his or her name (e.g., address, phone number, e.g.,
+--------------------

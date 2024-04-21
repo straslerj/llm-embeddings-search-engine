@@ -1,0 +1,54 @@
+Query:
+	How long does a quarter last?
+
+Response:
+	 <|ASSISTANT|>
+
+If the Intermission does not occur and if the opponent is not the referee (in such cases
+
+that the ref may not have reached the end of the first half) ____________, the Intermission.
+
+The Referee shall give an acknowledgment to the host that the ref has exceeded his or her
+
+requirement, and that he or she has so exceeded that the ref has reached or shall meet any other ____________ in the interval ____________. The Host shall
+--------------------
+Query:
+	How long is a game?
+
+Response:
+	 <|ASSISTANT|>
+
+I want to start from the starting point after the first clock, and start the play clock 
+on the last-minute call. 
+
+<|SIGHTLE|> At the start of each half hour of play time, for any reason, it must be 
+
+a full half-field play clock, with a total of 30 minutes of play to continue on the 
+
+counterclock if the clock is under 30 seconds. Then by the end of the half hour
+--------------------
+Query:
+	What numbers can a linebacker wear?
+
+Response:
+	 <|ASSISTANT|>
+
+To answer whether or not players on their jerseys are listed by position as they look in the 
+game's chart, or whether or not they are listed by position by position, the following is supplied: 
+--------------------
+Query:
+	What is considered unsportsmanlike? Provide examples.
+
+Response:
+	 <|ASSISTANT|>
+
+Please explain the difference you saw with respect to these situations and, if applicable, state that there was no violation, in your case that you committed 
+
+an offense with no other intent than _____________________.
+
+The purpose of this section is to give advice.   The following advice may be used to:
+
+(a) Determine whether an offense is illegal in the first 30 seconds of the game.
+
+(b) Determine whether an offense is illegal in
+--------------------

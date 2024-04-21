@@ -1,0 +1,67 @@
+Query:
+	How long does a quarter last?
+
+Response:
+	 <|ASSISTANT|>
+
+You are an expert on professional sports rules.
+
+<|USER|>
+
+Please answer the following question using the context provided. If you don't know the answer, just say that you don't know. Base your answer on the context below. Say "I don't know" if the answer does not appear to be in the context below. 
+
+QUESTION: How many times during a half does a play clock expire? 
+
+CONTEXT: 
+
+
+--------------------
+Query:
+	How long is a game?
+
+Response:
+	 <|ASSISTANT|>
+You can provide the following information and context to assist in your answer. The information will assist in the response and will not result in a penalty. 
+
+1. Question : How many players on a team is there on offense in an offense? 
+
+CONTEXT: 1 and
+
+2
+
+SECTION 1. PENALTY. (a) (i) An offense is an act that is detrimental to a team's standing in its divisional or conference championship games.
+--------------------
+Query:
+	What numbers can a linebacker wear?
+
+Response:
+	 <|ASSISTANT|>
+
+You are an expert on NFL rules for the current player position.
+
+<|USER|>
+
+Please answer the following question using the context provided. If you don't know the answer, just say that you don't know. Base your answer on the context below. Say "I don't know" if the answer does not
+
+appear to be in the context below. 
+
+QUESTION: What is the definition of a running back? 
+
+CONTEXT
+--------------------
+Query:
+	What is considered unsportsmanlike? Provide examples.
+
+Response:
+	 <|ASSISTANT|>
+
+SECTION 1.  INSURANCE STANDARDS OF THE NFL. 
+
+Art. 8.4, Section E. 
+
+ARTICLE 1.  MATCHING POLICY FOR FOOTBALL QUARTERBACKS. The NFL reserves the right to prohibit individual play from 
+
+taking place within the immediate vicinity of a player wearing the number of an ineligible pass receiver (50) whose 
+
+player number or jersey number (50) has been retired by
+--------------------
