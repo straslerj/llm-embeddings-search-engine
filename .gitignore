@@ -1,3 +1,4 @@
 __pycache__/create_vector_store.cpython-312.pyc
 FAISS_index/index.faiss
 FAISS_index/index.pkl
+venv
