@@ -5,13 +5,14 @@ llms = [
     "gpt2-large",
     "distilgpt2",
     "microsoft/phi-2",
-    "petals-team/StableBeluga2",
 ]
 queries = [
-    "How long does a quarter last?",
-    "How long is a game?",
-    "What numbers can a linebacker wear?",
-    "What is considered unsportsmanlike? Provide examples.",
+    "What is the grading breakdown?",
+    "Is there a final exam?",
+    "What are the course prereqs?",
+    "What books do I need for the class?",
+    "What is the late policy?",
+    "Tell me about the final project."
 ]
 
 for llm in llms:
@@ -22,7 +23,7 @@ for llm in llms:
         response = doc_chat.qNa(query, just_answer=True)
         print(f"Response from {llm} LLM model:\n{response}\n")
 
-        filename = f"responses/{llm}_response.txt"
+        filename = f"responses/{llm}_syllabus_response.txt"
         with open(filename, "a") as file:
             file.write(
                 f"Query:\n\t{query}\n\nResponse:\n\t{response}\n--------------------\n"
