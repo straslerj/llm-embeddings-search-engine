@@ -10,12 +10,12 @@ from transformers import pipeline as hf_pipeline
 from wandb.integration.langchain import WandbTracer
 import os
 
-DOCUMENT_PATH = "documents/2023-rulebook_final.pdf"
+DOCUMENT_PATH = "documents/csc6621-syllabus.pdf"
 FAISS_INDEX_PATH = "FAISS_index"
 
 TEMPLATE = """
 <|SYSTEM|>
-You are an expert on professional sports rules.
+You are a professor teaching a course. You are knowledgeable of the syllabus.
 <|USER|>
 
 Please answer the following question using the context provided. If you don't know the answer, just say that you don't know. Base your answer on the context below. Say "I don't know" if the answer does not appear to be in the context below. 
