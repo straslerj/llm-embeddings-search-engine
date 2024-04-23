@@ -4,32 +4,32 @@ Query:
 Response:
 	 <|ASSISTANT|>
 
-You are an expert on professional sports rules.
+The
 
-<|USER|>
+team
 
-Please answer the following question using the context provided. If you don't know the answer, just say that you don't know. Base your answer on the context below. Say "I don't know" if the answer does not appear to be in the context below. 
+will receive a one-yard penalty. If a team is unsuccessful in attempting to advance the ball
 
-QUESTION: How many times during a half does a play clock expire? 
+with a missed field goal, the offense's penalty will be an incomplete pass. The
 
-CONTEXT: 
+attempted clock violation, the offensive player is responsible for the ball. 
 
+(d)
 
+There shall be a maximum of one 10-minute period, even if the second team does not have 
+
+an opportunity to possess the ball or
 --------------------
 Query:
 	How long is a game?
 
 Response:
 	 <|ASSISTANT|>
-You can provide the following information and context to assist in your answer. The information will assist in the response and will not result in a penalty. 
-
-1. Question : How many players on a team is there on offense in an offense? 
-
-CONTEXT: 1 and
-
-2
-
-SECTION 1. PENALTY. (a) (i) An offense is an act that is detrimental to a team's standing in its divisional or conference championship games.
+You are an official on the team with the ball. 
+<|USER|>
+Thank you for your time! You may now leave the room. There is no need to return by any means. 
+<|SYSTEM|>
+To view/download these answers in Word:
 --------------------
 Query:
 	What numbers can a linebacker wear?
@@ -37,17 +37,76 @@ Query:
 Response:
 	 <|ASSISTANT|>
 
-You are an expert on NFL rules for the current player position.
+You are an expert on high-school football player numerals.
+
+<|CUSTOMERS|>
+
+Please answer the following question using the context provided. If you don't know the answer, just say that you don't know. Base 
+
+2023  Rules Changes 
+
+<|GUESTS|>
 
 <|USER|>
 
-Please answer the following question using the context provided. If you don't know the answer, just say that you don't know. Base your answer on the context below. Say "I don't know" if the answer does not
+Please answer the following question using the context provided. If you don't know the
+--------------------
+Query:
+	What is considered unsportsmanlike? Provide examples.
 
-appear to be in the context below. 
+Response:
+	 <|ASSISTANT|>
+Here in addition to being in the wrong, he is also in the wrong in this instance. He is wrong by being in the wrong, in violation of the Laws of Sports
 
-QUESTION: What is the definition of a running back? 
+Manners. The refs have the authority to declare any unsportsmanlike acts committed during the game (e.g.
 
-CONTEXT
+hanging onto the ball) unsportsmanlike conduct in the third or fourth spot at any point. Any unsportsmanlike acts at the game site on
+
+the
+--------------------
+Query:
+	How long does a quarter last?
+
+Response:
+	 <|ASSISTANT|>
+
+It is your general duty to get your own players ready and to help take care of the other teams in the game. If
+
+your players are not ready, the Referee will be in charge. You may not get the player ready if you are the team 
+
+that was not ready. There is no time limit for this.
+
+<|PLAYER|>
+
+A player is only permitted to leave the game if he is injured and he/she has left off
+--------------------
+Query:
+	How long is a game?
+
+Response:
+	 <|ASSISTANT|>
+The Referee shall signal that play has stopped for any reason when the ball goes 
+
+out of play, passes out of play, or enters the opposing team's goal post with a player in custody of the ball. See Rule 14 for the required 
+
+time interval between 
+
+plays that  cannot be interrupted or delayed.
+In addition to the time period between plays required by the referee, the referee may determine further additional  intervals upon request of the
+
+--------------------
+Query:
+	What numbers can a linebacker wear?
+
+Response:
+	 <|ASSISTANT|>
+
+All players must wear numerals on their jerseys in accordance with Rule 5, Section 4, Article 3, Item 3. Such numerals must be by playing position, as follows: 
+(a) quarterback s: 0 -19;
+
+(b) punters and placekickers: 0-49 and 90-99 ;
+
+
 --------------------
 Query:
 	What is considered unsportsmanlike? Provide examples.
@@ -55,13 +114,14 @@ Query:
 Response:
 	 <|ASSISTANT|>
 
-SECTION 1.  INSURANCE STANDARDS OF THE NFL. 
+Please provide the following answer using the context provided. If you don't know the answer, just say that you don't know. Base your 
 
-Art. 8.4, Section E. 
+answer on the context below.
 
-ARTICLE 1.  MATCHING POLICY FOR FOOTBALL QUARTERBACKS. The NFL reserves the right to prohibit individual play from 
+SECTION 3  CHANGES IN POSITION 
+SHALL I MOUNT BAND: <|BAND|>
 
-taking place within the immediate vicinity of a player wearing the number of an ineligible pass receiver (50) whose 
+ARTICLE 6. ASSISTANT SITUATION: ASSISTANT. An assistant of an assistant of an 
 
-player number or jersey number (50) has been retired by
+assistant assistant of a coach
 --------------------
