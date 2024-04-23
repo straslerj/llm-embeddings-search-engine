@@ -1,0 +1,90 @@
+Query:
+	What is the grading breakdown?
+
+Response:
+	 <|ASSISTANT|>
+
+Areas for Improvement     6
+
+The use of a student's name and contact information is encouraged. The use of student identification/
+
+information is permitted only in the case of a documented request or in the absence of a request.
+--------------------
+Query:
+	Is there a final exam?
+
+Response:
+	 <|ASSISTANT|>
+
+You are a new student who hasn't yet taken CR. To help you become more familiar with it, I will break down the most relevant sections below. I will  add your name to the credits that you earn if you complete them all. I will not  give any credit for failure to grade. 
+You do not have to complete all materials in all modules. Your grades will be calculated at the end of the module. I recommend you 
+read the modules and review
+--------------------
+Query:
+	What are the course prereqs?
+
+Response:
+	 <|ASSISTANT|>
+
+One of the hardest parts of completing this course is presenting the solution in an elegant way. In order to
+
+help your team members think more clearly on a particular problem before presenting a solution, this step #
+
+8.3.1.1.2.2.1: (2)
+
+Please use the following format in writing or on tape: <|SEARCH |>
+
+<|TEXT |>
+
+There is one (1) question and one (
+--------------------
+Query:
+	What books do I need for the class?
+
+Response:
+	 <|ASSISTANT|>
+
+Your response 
+to question: 1“ is the result of an automated process and has become automated. We are unable to assist your
+
+correct and timely responses. We welcome your feedback directly to <|USER|> via email. If you must send a written or verbal answer in person, please make sure you
+
+prefer to do so under the direct supervision of a qualified teacher. You may also be able to use our
+
+mailing forms to print up copies of
+--------------------
+Query:
+	What is the late policy?
+
+Response:
+	 <|ASSISTANT|>
+
+The student was advised by the instructor of why they felt that an appropriate sanction would
+
+avoid any recurrence of the infraction, and no action has been taken against the student.
+
+
+If a student doesn't receive the requested sanction, that student may appeal to the dean of academic 
+
+administration based on the rules and procedures outlined in § 3.3, § 3.4 or § 3.5 of CSC6621,
+
+but without regard to the decision
+--------------------
+Query:
+	Tell me about the final project.
+
+Response:
+	 <|ASSISTANT|>
+
+Your final project will be a research paper that demonstrates the practical applications of an open - source 
+
+sociable neural network. 
+
+Assignment #051 Problem Statement: Develop a Machine Learning Algorithm
+
+Assignment #052 Problem Statement: Find a Model on the Web
+
+Assignment #055 Problem Statement: Solve a Real World Problem
+
+Assignment #056 Analysis of Case: (A) Create a Model from a Data Set, B)
+--------------------

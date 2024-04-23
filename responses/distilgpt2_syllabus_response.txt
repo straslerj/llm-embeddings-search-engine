@@ -1,0 +1,71 @@
+Query:
+	What is the grading breakdown?
+
+Response:
+	 <|ASSISTANT|>
+An important part of this process is to examine these students' academic performance and their expectations for a given subject of an 
+Course. An  course may include an additional level of learning through this course, and a variety of course
+work. Students will receive a report before their  course begins. 
+The university has the need to address it all through this course if they do not have an advanced degree. Students will then have to assess
+their performance and expectations on how much their
+--------------------
+Query:
+	Is there a final exam?
+
+Response:
+	 <|ASSISTANT|>
+So this allows you to design your own computer to interact with more fully informed students in real time.  
+This web application uses an 𝛢 object in its __init__ method, then automatically generates a new __init__ method using that object.  
+When a user makes a mental error while doing 
+the task, if the 𝛢 object causes the 𝛢 object to be "interruptible". 
+The __init__ method contains the
+--------------------
+Query:
+	What are the course prereqs?
+
+Response:
+	 <|ASSISTANT|>
+This course is divided into two parts:
+a). Overview
+The main topic of the course is about: the basic, and also-more-common problem set. 
+A specific problem set is
+a specific goal. The problem set is
+a single problem set, usually known as an “-problem set.  
+A single problem set (and related concepts) should represent the problem sets in the problem set. 
+The problem set should represent the problem sets, including
+--------------------
+Query:
+	What books do I need for the class?
+
+Response:
+	 <|ASSISTANT|>
+A student may have difficulty in learning to take into account the following requirements:
+• The student must recognize that even a poorly developed piece of work that represents their best 
+efforts is far more worthwhile than the most outstanding piece of work taken from someone else.
+NOTE: When you are writing a given paper, you should indicate the following:
+• It is also worth mentioning that “The only two pieces are that of the above three pieces of work are simply to present the work to
+--------------------
+Query:
+	What is the late policy?
+
+Response:
+	 <|ASSISTANT|>
+
+A student who acts without integrity in an academic setting shall be subject to sanctions. Sanctions are at the 
+discretion of the instructor and may take one of many forms. Example sanctions include written reprimand, 
+penalty on an assignment or exam, or “ F” grade for the assignment, exam or course. If the student believes the sanction was unwarranted, they have the right to appeal following established proc edures. All breaches of academic dish
+--------------------
+Query:
+	Tell me about the final project.
+
+Response:
+	 <|ASSISTANT|>
+Please send a copy of this PDF to your email address as soon as possible. 
+REFERENCES: <|KEY|>
+The final exam will have three parts. The first part is a tutorial. 
+REFERENCES: <|KEY|>
+The final exam will have a four-page introduction. 
+CONTACT: <|KEY|>
+The final exam will have three parts. The first part is a tutorial. 
+CONTACT: <
+--------------------
