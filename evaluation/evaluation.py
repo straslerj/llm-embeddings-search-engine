@@ -1,10 +1,12 @@
-import pandas as pd
-from sentence_transformers import SentenceTransformer, util
 import argparse
-import sys
+import matplotlib.pyplot as plt
+import pandas as pd
 import os
 import seaborn as sns
-import matplotlib.pyplot as plt
+import sys
+
+from sentence_transformers import SentenceTransformer, util
+
 
 model = SentenceTransformer("bert-base-nli-mean-tokens")
 
