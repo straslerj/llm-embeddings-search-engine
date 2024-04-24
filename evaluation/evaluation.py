@@ -69,6 +69,8 @@ if __name__ == "__main__":
     df["context_score"] = pd.to_numeric(df["context_score"], errors="coerce")
     df["llm_score"] = pd.to_numeric(df["llm_score"], errors="coerce")
 
+    print("Similarity scores calculated.")
+
     grouped_df = (
         df.groupby("llm")
         .agg(
@@ -97,4 +99,6 @@ if __name__ == "__main__":
     directory_path = "results/figures/"
     if not os.path.exists(directory_path):
         os.makedirs(directory_path)
-    plt.savefig(f"{directory_path}{mode_flag}.png")
+    plot_path = f"{directory_path}{mode_flag}.png"
+    plt.savefig(plot_path)
+    print(f"Plot saved to {plot_path}")
