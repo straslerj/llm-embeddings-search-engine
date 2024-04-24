@@ -14,9 +14,9 @@ import create_vector_store as cvs
 
 LLMS = [
     "gpt2",
-    # "gpt2-large",
-    # "distilgpt2",
-    # "microsoft/phi-2",
+    "gpt2-large",
+    "distilgpt2",
+    "microsoft/phi-2",
 ]
 
 
