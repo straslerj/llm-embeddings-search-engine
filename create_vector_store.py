@@ -62,7 +62,9 @@ class LoadDocs:
         elif mode == "syllabus":
             self.documents = PyPDFLoader(SYLLABUS_DOCUMENT_PATH).load()
         else:
-            raise ValueError('Please use either "nfl" or "syllabus" as mode.')
+            raise ValueError(
+                f'Please use either "nfl" or "syllabus" as mode, not "{mode}"'
+            )
 
         self.chunks = self.preprocess(self.documents)
 
@@ -141,7 +143,9 @@ class DocChat:
                 template=SYLLABUS_TEMPLATE, input_variables=["context", "question"]
             )
         else:
-            raise ValueError('Please use either "nfl" or "syllabus" as mode.')
+            raise ValueError(
+                f'Please use either "nfl" or "syllabus" as mode, not "{mode}"'
+            )
 
         if os.path.exists(file_path):
             self.vector_db = FAISS.load_local(
