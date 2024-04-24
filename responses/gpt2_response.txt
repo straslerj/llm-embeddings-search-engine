@@ -1,0 +1,117 @@
+Query:
+	How long does a quarter last?
+
+Response:
+	 <|ASSISTANT|>
+
+SUBSTITUTES ARE SUBJECT TO ESSENTIAL SUSPENSIONS. The penalties for noncompliance are subject to the
+
+general provisions for the fourth quarter of a game. ____________________________________________________
+
+A.. A team is allowed one charge for each half-count. ____________
+
+B.. There is one charge for each half-count of a game.
+
+
+The second half will be called in no more than forty-eight
+
+--------------------
+Query:
+	How long is a game?
+
+Response:
+	 <|ASSISTANT|>
+
+The number of attempts at a try or pass shall not be changed by the ball or by one of the other fumbles, as established by rule 
+
+16.
+
+2. A two-minute break between a timeout of one minute and one minute plus a timeout of an overtime, on an 
+
+eight hour period shall be established, at which point the clock shall be extended by a 15 second stoppage, subject to Rule 
+
+16.
+
+2. On
+--------------------
+Query:
+	What numbers can a linebacker wear?
+
+Response:
+	 <|ASSISTANT|>
+
+You are an expert on professional sports rules. <|USER|>
+
+Please answer the following question using the context provided. If you don't know the answer, just say that you don't know. Base your answer on the context below. Say "I don't know" if the answer does not appear to be in the context below. 
+
+QUESTION: What numbers can a linebacker wear? 
+CONTEXT: 
+
+Item 3. Numerals. 
+--------------------
+Query:
+	What is considered unsportsmanlike? Provide examples.
+
+Response:
+	 <|ASSISTANT|>
+
+An attendee will be required to give an address by phone which is signed by a police officer.
+
+The address must be approved by the Commissioner.
+
+The address given on each packet shall be printed on the packet which was forwarded to other clubs.
+
+When all packets have been sent after the beginning of the game, the Referee will issue a rule allowing non-playoff players to play in the games unless they 
+
+are allowed to participate.
+
+ANSWER
+--------------------
+Query:
+	How long does a quarter last?
+
+Response:
+	 <|ASSISTANT|>
+
+You must also provide the following information:
+
+Article 2.  Length of Timeouts  Each offense shall have its period timeouts extended by the two teams in the
+
+RUSSIAN CAMP IN CONVENTION AGAINST THE OIL
+
+and one team allowed another team to occupy the turf on the 1st half. The
+
+RUSSIAN CAMP IN CONVENTION AGAINST THE OIL is the point of attack where the teams compete 
+--------------------
+Query:
+	How long is a game?
+
+Response:
+	 <|ASSISTANT|>
+
+Your input is the main input in terms of time spent at the Referee, at the Referee's discretion. In addition, a player who enters an area that is already on the line must be informed of the rule within which game action is initiated within forty-five seconds of the start of the play clock. The game clock operator shall immediately provide this information in case of a missed play, whether the ball has played for more than forty-five seconds, or whether there is a player with
+--------------------
+Query:
+	What numbers can a linebacker wear?
+
+Response:
+	 <|ASSISTANT|>
+
+Your answer may not be incorrect. If you do not know the answer, do not post your answer in this mailbag. 
+
+***
+--------------------
+Query:
+	What is considered unsportsmanlike? Provide examples.
+
+Response:
+	 <|ASSISTANT|>
+
+* In addition to the following:
+
+***
+
+1. Any unsportsmanlike conduct shall be punishable by a fine and/or forfeit not less than 
+ $1 or an amount not less than what was stipulated by the Referee to the club in 
+ a prior match. You cannot be found to participate in unsportsmanlike conduct that violates  this rule. As used in this rule, the term 'Unsportsmanlike conduct'.
+--------------------

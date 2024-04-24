@@ -1,0 +1,127 @@
+Query:
+	How long does a quarter last?
+
+Response:
+	 <|ASSISTANT|>
+
+The
+
+team
+
+will receive a one-yard penalty. If a team is unsuccessful in attempting to advance the ball
+
+with a missed field goal, the offense's penalty will be an incomplete pass. The
+
+attempted clock violation, the offensive player is responsible for the ball. 
+
+(d)
+
+There shall be a maximum of one 10-minute period, even if the second team does not have 
+
+an opportunity to possess the ball or
+--------------------
+Query:
+	How long is a game?
+
+Response:
+	 <|ASSISTANT|>
+You are an official on the team with the ball. 
+<|USER|>
+Thank you for your time! You may now leave the room. There is no need to return by any means. 
+<|SYSTEM|>
+To view/download these answers in Word:
+--------------------
+Query:
+	What numbers can a linebacker wear?
+
+Response:
+	 <|ASSISTANT|>
+
+You are an expert on high-school football player numerals.
+
+<|CUSTOMERS|>
+
+Please answer the following question using the context provided. If you don't know the answer, just say that you don't know. Base 
+
+2023  Rules Changes 
+
+<|GUESTS|>
+
+<|USER|>
+
+Please answer the following question using the context provided. If you don't know the
+--------------------
+Query:
+	What is considered unsportsmanlike? Provide examples.
+
+Response:
+	 <|ASSISTANT|>
+Here in addition to being in the wrong, he is also in the wrong in this instance. He is wrong by being in the wrong, in violation of the Laws of Sports
+
+Manners. The refs have the authority to declare any unsportsmanlike acts committed during the game (e.g.
+
+hanging onto the ball) unsportsmanlike conduct in the third or fourth spot at any point. Any unsportsmanlike acts at the game site on
+
+the
+--------------------
+Query:
+	How long does a quarter last?
+
+Response:
+	 <|ASSISTANT|>
+
+It is your general duty to get your own players ready and to help take care of the other teams in the game. If
+
+your players are not ready, the Referee will be in charge. You may not get the player ready if you are the team 
+
+that was not ready. There is no time limit for this.
+
+<|PLAYER|>
+
+A player is only permitted to leave the game if he is injured and he/she has left off
+--------------------
+Query:
+	How long is a game?
+
+Response:
+	 <|ASSISTANT|>
+The Referee shall signal that play has stopped for any reason when the ball goes 
+
+out of play, passes out of play, or enters the opposing team's goal post with a player in custody of the ball. See Rule 14 for the required 
+
+time interval between 
+
+plays that  cannot be interrupted or delayed.
+In addition to the time period between plays required by the referee, the referee may determine further additional  intervals upon request of the
+
+--------------------
+Query:
+	What numbers can a linebacker wear?
+
+Response:
+	 <|ASSISTANT|>
+
+All players must wear numerals on their jerseys in accordance with Rule 5, Section 4, Article 3, Item 3. Such numerals must be by playing position, as follows: 
+(a) quarterback s: 0 -19;
+
+(b) punters and placekickers: 0-49 and 90-99 ;
+
+
+--------------------
+Query:
+	What is considered unsportsmanlike? Provide examples.
+
+Response:
+	 <|ASSISTANT|>
+
+Please provide the following answer using the context provided. If you don't know the answer, just say that you don't know. Base your 
+
+answer on the context below.
+
+SECTION 3  CHANGES IN POSITION 
+SHALL I MOUNT BAND: <|BAND|>
+
+ARTICLE 6. ASSISTANT SITUATION: ASSISTANT. An assistant of an assistant of an 
+
+assistant assistant of a coach
+--------------------

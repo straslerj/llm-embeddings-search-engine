@@ -1,0 +1,86 @@
+Query:
+	What is the grading breakdown?
+
+Response:
+	 <|ASSISTANT|>
+
+The academic experience is important to any student studying here. It is your responsibility to ensure it is a productive experience at MSOE. It has 
+
+an interest and has been a core of MSOE's success. The school will use reasonable means to ensure that all students who will require 
+
+the involvement of an advisor and a staff member are informed and that any staff member  an 
+
+university faculty member who has not provided their
+--------------------
+Query:
+	Is there a final exam?
+
+Response:
+	 <|ASSISTANT|>
+
+A note about instructor assignments. We encourage you to request one of the three assignments on our courselist (see above for details). If there are no assignments assigned on your schedule, then let us know. You can email us your schedule if:
+
+> 
+
+* I don't recall exactly where exactly you were able to go and what is your plan for achieving this goal. If there is any other assistance, we could have your schedule
+
+> 
+
+* missed.
+--------------------
+Query:
+	What are the course prereqs?
+
+Response:
+	 <|ASSISTANT|>
+
+This process ensures that all research papers are presented with correct emphasis, and that 
+`citations and citations from individual research papers are reported, as defined by 
+
+ASIAM's ANSTERMINATION FORM. 
+
+Assignment Type Enrichment and Evaluation (Group)  
+
+Achieving a team of six or more scientists to review three or more papers simultaneously is a major step in this process. 
+
+Once your paper review is approved,
+--------------------
+Query:
+	What books do I need for the class?
+
+Response:
+	 <|ASSISTANT|>
+
+This is the subject of a different class this year. This class focuses on learning how the natural language processing
+
+systems, or "synthesis" that is used for human language learning, works and to work with objects as closely as possible to the world.
+
+This class is intended to teach the way that human language learning works and where it needs to be learned for us. This is not a course on machine learning, but a course on the relationship of the learning mechanisms and
+--------------------
+Query:
+	What is the late policy?
+
+Response:
+	 <|ASSISTANT|>
+
+you must notify the instructor of the intent to withdraw. Student consent is required for disciplinary actions,
+
+and should be obtained by your department(s) within 60 days of suspension. 
+--------------------
+Query:
+	Tell me about the final project.
+
+Response:
+	 <|ASSISTANT|>
+
+Please answer the following question using the context provided. If you don't know the answer, just say that your questions and 
+
+sources are not relevant to this particular student or project. By answering these questions for the final project, 
+
+measurement will become less effective in understanding such issues.  
+
+Result of the final project is that a researcher with a well-
+
+developed, accurate understanding of the dataset will make the proposed paper more relevant 
+com
+--------------------
