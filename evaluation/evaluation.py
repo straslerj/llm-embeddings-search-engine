@@ -93,10 +93,17 @@ if __name__ == "__main__":
     melted_df["type"] = melted_df["type_stat"].apply(lambda x: x.split("_")[0])
     melted_df["stat"] = melted_df["type_stat"].apply(lambda x: x.split("_")[1])
 
+    melted_df = melted_df.drop_duplicates(subset=["value"], keep="first")
+
+    melted_df.loc[
+        melted_df["type_stat"].isin(["context_score_mean", "context_score_std"]), "llm_"
+    ] = "context"
+
     melted_df.to_csv(f"{directory_path}{mode_flag}_results_STATS.csv", index=False)
 
-    plt.figure()
-    sns.barplot(x="llm_", y="value", hue="type", errorbar="sd", data=melted_df)
+    sns.set_style("whitegrid", {"grid.linestyle": "--", "grid.alpha": 0.7})
+    plt.figure(figsize=(15, 6))
+    sns.barplot(x="llm_", y="value", hue="llm_", errorbar="sd", data=melted_df)
     plt.title("Mean and Standard Deviation by LLM")
     plt.xlabel("LLM")
     plt.ylabel("Similarity Score")
@@ -104,5 +111,6 @@ if __name__ == "__main__":
     if not os.path.exists(directory_path):
         os.makedirs(directory_path)
     plot_path = f"{directory_path}{mode_flag}.png"
+    plt.tight_layout()
     plt.savefig(plot_path)
     print(f"Plot saved to {plot_path}")

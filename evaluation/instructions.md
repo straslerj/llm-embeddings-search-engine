@@ -11,6 +11,4 @@ To use the evaluation scripts:
 
 Things to be aware of:
 
- - I had to run on Rosie for the phi2 model (but I only have 8gb of RAM)
- - When running on Rosie there was an error in calling the hugging face model for the similarity metrics
-   - I just pushed the `responses/` direcetory to remote and then ran the evaluation script locally. With more RAM can probably just run the Makefile locally with no problems
+ - I had to run on Rosie for the phi models (but I only have 8gb of RAM)
