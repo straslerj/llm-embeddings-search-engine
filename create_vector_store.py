@@ -169,7 +169,6 @@ class DocChat:
             str: The output text of the question and answer process.
         """
         sim_search_res = self.vector_db.similarity_search(query)
-        print(f"{len(sim_search_res[0].page_content)=}")
         res = self.chain({"input_documents": sim_search_res, "question": query})
         output_text = res["output_text"]
         if just_answer:
