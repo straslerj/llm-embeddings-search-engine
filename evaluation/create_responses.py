@@ -13,10 +13,11 @@ sys.path.append(parent_path)
 import create_vector_store as cvs
 
 LLMS = [
-    "gpt2",
-    "gpt2-large",
-    "distilgpt2",
-    "microsoft/phi-2",
+    # "gpt2",
+    # "gpt2-large",
+    # "distilgpt2",
+    # "microsoft/phi-2",
+    "microsoft/Phi-3-mini-128k-instruct"
 ]
 
 
