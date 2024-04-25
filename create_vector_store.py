@@ -129,6 +129,7 @@ class DocChat:
             model_id=model_id,
             task="text-generation",
             pipeline_kwargs={"max_new_tokens": 100},
+            model_kwargs={"trust_remote_code": True},
         )
 
         cwd = os.getcwd()
@@ -155,7 +156,9 @@ class DocChat:
             self.vector_db = FAISS.from_documents(self.chunks, self.embeddings)
             self.vector_db.save_local(file_path)
 
-        self.chain = load_qa_chain(llm=self.llm, chain_type="stuff", prompt=PROMPT)
+        self.chain = load_qa_chain(
+            llm=self.llm, chain_type="stuff", prompt=PROMPT, trust_remote_cde=True
+        )
 
     def qNa(self, query, just_answer=False):
         """
