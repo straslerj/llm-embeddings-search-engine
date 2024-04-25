@@ -93,6 +93,8 @@ if __name__ == "__main__":
     melted_df["type"] = melted_df["type_stat"].apply(lambda x: x.split("_")[0])
     melted_df["stat"] = melted_df["type_stat"].apply(lambda x: x.split("_")[1])
 
+    melted_df.to_csv(f"{directory_path}{mode_flag}_results_STATS.csv", index=False)
+
     plt.figure()
     sns.barplot(x="llm_", y="value", hue="type", errorbar="sd", data=melted_df)
     plt.title("Mean and Standard Deviation by LLM")
