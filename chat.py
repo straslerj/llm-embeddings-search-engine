@@ -4,9 +4,7 @@ import time
 if __name__ == "__main__":
     start_time = time.time()
     doc_chat = cvs.DocChat(model_id="gpt2", mode="nfl")
-    response = doc_chat.qNa(
-        input("What would you like to know about the NFL rulebook?\n")
-    )
+    response = doc_chat.qNa("How long is a quarter?")
     print(response)
     end_time = time.time()
     elapsed_time = end_time - start_time
