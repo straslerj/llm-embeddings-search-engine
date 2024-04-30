@@ -35,11 +35,11 @@ sns.barplot(x=llm_labels, y=means, hue=llm_labels, palette="colorblind")
 plt.errorbar(
     x=llm_labels, y=means, yerr=std_devs, fmt="none", ecolor="black", capsize=5
 )
-plt.title("Mean and Standard Deviation by LLM (NFL Rulebook)")
-plt.xlabel("LLM")
-plt.ylabel("Similarity Score")
+plt.title("Mean and Standard Deviation by LLM (NFL Rulebook)", fontsize=18)
+plt.xlabel("LLM", fontsize=15)
+plt.ylabel("Similarity Score", fontsize=15)
 plt.ylim(0, 1.0)
-plt.yticks(np.arange(0, 1.1, 0.1))
+plt.yticks(np.arange(0, 1.1, 0.1), fontsize=12)
 plt.tight_layout()
 
 plt.savefig("results/figures/nfl.png", dpi=300)
@@ -71,11 +71,11 @@ sns.barplot(x=llm_labels, y=means, hue=llm_labels, palette="colorblind")
 plt.errorbar(
     x=llm_labels, y=means, yerr=std_devs, fmt="none", ecolor="black", capsize=5
 )
-plt.title("Mean and Standard Deviation by LLM (Syllabus)")
-plt.xlabel("LLM")
-plt.ylabel("Similarity Score")
+plt.title("Mean and Standard Deviation by LLM (Syllabus)", fontsize=18)
+plt.xlabel("LLM", fontsize=15)
+plt.ylabel("Similarity Score", fontsize=15)
 plt.ylim(0, 1.0)
-plt.yticks(np.arange(0, 1.1, 0.1))
+plt.yticks(np.arange(0, 1.1, 0.1), fontsize=12)
 plt.tight_layout()
 
 plt.savefig("results/figures/syllabus.png", dpi=300)
