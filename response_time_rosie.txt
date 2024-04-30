@@ -1,0 +1,119 @@
+straslerj@dh-mgmt2:~/llm-embeddings-search-engine$ python3 chat.py 
+2024-04-30 16:42:53.750723: I tensorflow/core/util/port.cc:110] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-04-30 16:42:53.796087: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-04-30 16:42:55.371234: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+/home/straslerj/.local/lib/python3.8/site-packages/torch/cuda/__init__.py:141: UserWarning: CUDA initialization: The NVIDIA driver on your system is too old (found version 11070). Please update your GPU driver by downloading and installing a new version from the URL: http://www.nvidia.com/Download/index.aspx Alternatively, go to: https://pytorch.org to install a PyTorch version that has been compiled with your version of the CUDA driver. (Triggered internally at ../c10/cuda/CUDAFunctions.cpp:108.)
+  return torch._C._cuda_getDeviceCount() > 0
+/home/straslerj/.local/lib/python3.8/site-packages/torch/cuda/__init__.py:628: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+/home/straslerj/.local/lib/python3.8/site-packages/langchain_core/_api/deprecation.py:119: LangChainDeprecationWarning: The method `Chain.__call__` was deprecated in langchain 0.1.0 and will be removed in 0.2.0. Use invoke instead.
+  warn_deprecated(
+
+<|SYSTEM|>
+You are an expert on the rules of the National Football League.
+<|USER|>
+
+Please answer the following question using the context provided. If you don't know the answer, just say that you don't know. Base your answer on the context below. Say "I don't know" if the answer does not appear to be in the context below. 
+
+QUESTION: How long is a quarter? 
+CONTEXT: 
+general provisions for the fourth quarter of a game, including timing, shall apply .
+ARTICLE 4.  OVERTIME IN POST SEASON . Following an intermission of no more than three minutes after the end of the 
+regular game, an extra period of 15 minutes shall commence.  The following shall apply :
+
+RULE 4  GAME TIMING 
+SE
+CTION 1  PERIODS, INTERMISSIONS, HALFTIME  
+ARTICLE 1.  LENGTH OF GAME . The length of the game is 60 minutes, divided into four periods of 15 minutes each. In the 
+event the score is tied at the end of four periods, the game is extended by an overtime period (or periods) as prescribed in Rule 
+16. 
+ARTICLE 2 .  INTERMISSIONS. There will be intervals of at least two minutes between the first and second periods (first half)
+
+and 50 seconds. The Referee shall sound the whistle immediately thereafter for play to start and for the play clock operator to 
+start the 25-second clock. See 4-6-2.  
+ARTICLE 3.  HALFTIME . Between the second and third periods, there shall be an intermission of 13 minutes. During this 
+intermission, play is suspended, and teams may leave the field. The Back Judge will time halftime. See 13-1-1 for fouls by non-
+players between halves.
+
+Article 5(a) below.
+(d)There shall be a maximum of one 10-minute period, even if the second team has not had an opportunity to possess the ball
+or if its initial possession has not ended. If the score is tied at the end of the period, the game shall result in a tie
+(e)Each team shall be entitled to two timeouts, and if there is an excess timeout, the usual rules shall apply ( see 4-5). The
+general provisions for the fourth quarter of a game, including timing, shall apply .
+
+ANSWER: <|ASSISTANT|>
+
+A professional professional referee should be the only person in charge of refereeing and setting things, or at least a professional who recognizes and can be trusted with the management of the game, and has the qualifications to officiate games.
+
+ANSWER: < |JUDGE|>
+
+In addition to any other responsibilities, the following persons are required to referee the games:
+
+A.
+
+A.
+
+B.
+
+C.
+
+D.
+
+E
+Elapsed time: 10.20 seconds
+straslerj@dh-mgmt2:~/llm-embeddings-search-engine$ nano chat.py 
+straslerj@dh-mgmt2:~/llm-embeddings-search-engine$ python3 chat.py 
+2024-04-30 16:44:15.800180: I tensorflow/core/util/port.cc:110] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+2024-04-30 16:44:15.842429: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 AVX512F AVX512_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2024-04-30 16:44:17.395283: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+/home/straslerj/.local/lib/python3.8/site-packages/torch/cuda/__init__.py:141: UserWarning: CUDA initialization: The NVIDIA driver on your system is too old (found version 11070). Please update your GPU driver by downloading and installing a new version from the URL: http://www.nvidia.com/Download/index.aspx Alternatively, go to: https://pytorch.org to install a PyTorch version that has been compiled with your version of the CUDA driver. (Triggered internally at ../c10/cuda/CUDAFunctions.cpp:108.)
+  return torch._C._cuda_getDeviceCount() > 0
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+config.json: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████| 735/735 [00:00<00:00, 65.7kB/s]
+Downloading shards: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████| 2/2 [00:00<00:00, 18.50it/s]
+Loading checkpoint shards: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████| 2/2 [00:08<00:00,  4.47s/it]
+/home/straslerj/.local/lib/python3.8/site-packages/torch/cuda/__init__.py:628: UserWarning: Can't initialize NVML
+  warnings.warn("Can't initialize NVML")
+/home/straslerj/.local/lib/python3.8/site-packages/langchain_core/_api/deprecation.py:119: LangChainDeprecationWarning: The method `Chain.__call__` was deprecated in langchain 0.1.0 and will be removed in 0.2.0. Use invoke instead.
+  warn_deprecated(
+
+<|SYSTEM|>
+You are an expert on the rules of the National Football League.
+<|USER|>
+
+Please answer the following question using the context provided. If you don't know the answer, just say that you don't know. Base your answer on the context below. Say "I don't know" if the answer does not appear to be in the context below. 
+
+QUESTION: How long is a quarter? 
+CONTEXT: 
+general provisions for the fourth quarter of a game, including timing, shall apply .
+ARTICLE 4.  OVERTIME IN POST SEASON . Following an intermission of no more than three minutes after the end of the 
+regular game, an extra period of 15 minutes shall commence.  The following shall apply :
+
+RULE 4  GAME TIMING 
+SE
+CTION 1  PERIODS, INTERMISSIONS, HALFTIME  
+ARTICLE 1.  LENGTH OF GAME . The length of the game is 60 minutes, divided into four periods of 15 minutes each. In the 
+event the score is tied at the end of four periods, the game is extended by an overtime period (or periods) as prescribed in Rule 
+16. 
+ARTICLE 2 .  INTERMISSIONS. There will be intervals of at least two minutes between the first and second periods (first half)
+
+and 50 seconds. The Referee shall sound the whistle immediately thereafter for play to start and for the play clock operator to 
+start the 25-second clock. See 4-6-2.  
+ARTICLE 3.  HALFTIME . Between the second and third periods, there shall be an intermission of 13 minutes. During this 
+intermission, play is suspended, and teams may leave the field. The Back Judge will time halftime. See 13-1-1 for fouls by non-
+players between halves.
+
+Article 5(a) below.
+(d)There shall be a maximum of one 10-minute period, even if the second team has not had an opportunity to possess the ball
+or if its initial possession has not ended. If the score is tied at the end of the period, the game shall result in a tie
+(e)Each team shall be entitled to two timeouts, and if there is an excess timeout, the usual rules shall apply ( see 4-5). The
+general provisions for the fourth quarter of a game, including timing, shall apply .
+
+ANSWER: <|ASSISTANT|>
+A quarter in the National Football League is 15 minutes long.
+
+Elapsed time: 24.38 seconds
+straslerj@dh-mgmt2:~/llm-embeddings-search-engine$ ^C
+straslerj@dh-mgmt2:~/llm-embeddings-search-engine$ 
