@@ -42,7 +42,7 @@ plt.ylim(0, 1.0)
 plt.yticks(np.arange(0, 1.1, 0.1))
 plt.tight_layout()
 
-plt.savefig("results/figures/nfl.png")
+plt.savefig("results/figures/nfl.png", dpi=300)
 
 # Syllabus data
 
@@ -78,4 +78,4 @@ plt.ylim(0, 1.0)
 plt.yticks(np.arange(0, 1.1, 0.1))
 plt.tight_layout()
 
-plt.savefig("results/figures/syllabus.png")
+plt.savefig("results/figures/syllabus.png", dpi=300)
