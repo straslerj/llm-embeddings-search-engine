@@ -1,0 +1,13 @@
+llm_,type_stat,value,type,stat
+context,context_score_mean,0.41155825803677243,context,score
+context,context_score_std,0.22243069952505273,context,score
+distilgpt2,llm_score_mean,0.3994512071212133,llm,score
+gpt2,llm_score_mean,0.40195179261888064,llm,score
+gpt2-large,llm_score_mean,0.3451283392806848,llm,score
+microsoft/Phi-3-mini-128k-instruct,llm_score_mean,0.5735278179248174,llm,score
+microsoft/phi-2,llm_score_mean,0.5432606716950734,llm,score
+distilgpt2,llm_score_std,0.22843016587528148,llm,score
+gpt2,llm_score_std,0.232357247275062,llm,score
+gpt2-large,llm_score_std,0.19116895630275693,llm,score
+microsoft/Phi-3-mini-128k-instruct,llm_score_std,0.2251201426695241,llm,score
+microsoft/phi-2,llm_score_std,0.19562349715841557,llm,score
