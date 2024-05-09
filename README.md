@@ -7,4 +7,4 @@ Large language models (LLMs) such as ChatGPT have changed how people interact wi
 
 Slowing companies from implementing this type of interface is the time and cost expenses involved in training an LLM. However, smaller LLMs can be trained in a more focused fashion on a small collection of documents. In the case of this project, two LLMs are trained: one on the course syllabus and one on the National Football League rulebook. A user can then ask questions to the LLM specific to the domain of the document it has been trained on, providing a convenient way to get information quickly.
 
-For more information, please view our [whitepaper](whitepaper.pdf)
+For more information, please view our [whitepaper](whitepaper.pdf).
